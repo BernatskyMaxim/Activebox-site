@@ -1,0 +1,25 @@
+.intro__wrap {
+    width: 100%;
+    max-width: 970px;
+    padding: 156px 0 156px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro__title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 71px;
+    text-transform: uppercase;
+}
+
+.intro__text {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 30px;
+}

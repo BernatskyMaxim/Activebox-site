@@ -1,0 +1,30 @@
+.header {
+    background: url('../img/intro-bg.jpg') center (center/cover) no-repeat;
+    height: 750px;
+    &__wrap {
+        padding: 35px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #515369;
+    }
+    .nav {
+        &__link {
+            opacity: 0.75;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-right: 59px;
+            text-decoration: none;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                text-decoration: underline;
+                color: $second;
+                transition: .5s all;
+            }
+        }
+    }
+}
