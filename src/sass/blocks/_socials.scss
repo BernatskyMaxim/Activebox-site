@@ -1,0 +1,22 @@
+.socials {
+    display: flex;
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 4px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #e8ecee;
+    }
+    &__icon {
+        display: block;
+        width: 18px;
+        height: 18px;
+        fill: #c6cacc;
+        transition: .5s all;
+        &:hover {
+            fill: $second;
+        }
+    }
+}

@@ -11,8 +11,9 @@
 
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
     
 }
 
@@ -23,4 +24,7 @@
 @import 'blocks/button';
 @import 'blocks/features';
 @import 'blocks/works';
+@import 'blocks/team';
+@import 'blocks/socials';
+@import 'blocks/reviews';
 
