@@ -10,16 +10,13 @@
 }
 
 .container {
-    max-width: 1900px;
+    width: 100%;
+    max-width: 1170px;
     margin: 0 auto;
     
 }
 
-.wrap {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-}
+
 
 @import 'blocks/header';
 @import 'blocks/intro';
