@@ -1,0 +1,28 @@
+.features {
+    min-height: 750px;
+    padding: 100px 0 100px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        text-align: center;
+        width: 33%;
+        padding: 0 40px;
+        margin: 25px 0;
+    }
+    &__title {
+        margin-top: 34px;
+        color: #2d3033;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__descr {
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: $main-color;
+    }
+}
