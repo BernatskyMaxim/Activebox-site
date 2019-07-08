@@ -13,8 +13,12 @@
     margin-top: 77px;
     cursor: pointer;
     border-radius: 2px;
+    text-align: center;
     &:hover {
         background-color: $main-color;
         transition: 1s all;
+    }
+    &_big {
+        width: 280px;
     }
 }

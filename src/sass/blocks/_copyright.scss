@@ -1,0 +1,16 @@
+.copyright {
+    padding: 29px 0;
+    background-color: #313454;
+    &__text {
+        text-align: center;
+        color: #808080;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.5;
+        span {
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 13px;
+        }
+    }
+}
