@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <title>ActiveBox</title>
 </head>
 <body>
 
 
     <!-- Header -->
-<header class="header">
+<header class="header" id="header">
     <div class="container">
         <div class="header__inner">
             <div class="header__logo">
@@ -20,11 +22,11 @@
             </div>
 
             <nav class="nav">
-                <a class="nav__link" href="#">Features</a>
-                <a class="nav__link" href="#">Works</a>
-                <a class="nav__link" href="#">Our Team</a>
-                <a class="nav__link" href="#">Testimonials</a>
-                <a class="nav__link" href="#">Download</a>
+                <a class="nav__link" href="#" data-scroll="#features">Features</a>
+                <a class="nav__link" href="#" data-scroll="#works">Works</a>
+                <a class="nav__link" href="#" data-scroll="#team">Our Team</a>
+                <a class="nav__link" href="#" data-scroll="#reviews">Testimonials</a>
+                <a class="nav__link" href="#" data-scroll="#download">Download</a>
             </nav>
 
            <button class="burger" type="button">
@@ -37,7 +39,7 @@
 
 
     <!-- Intro -->
-<div class="intro">
+<div class="intro" id="intro">
     <div class="container">
         <div class="intro__inner">
             <h1 class="intro__title">Your Favorite One Page Multi Purpose Template</h1>
@@ -48,7 +50,7 @@
 </div>
 
     <!-- Features -->
-<section class="features">
+<section class="features" id="features">
     <div class="container">
         <div class="features__wrapper">
             <div class="features__item">
@@ -86,7 +88,7 @@
 </section>
 
     <!-- Works -->
-<section class="works">
+<section class="works" id="works">
     <div class="works__item">
         <img class="works__img" src="img/works/work1.jpg" alt="">
         <div class="works__content">
@@ -145,7 +147,7 @@
     </div>
 </section>
     <!-- Team -->
-<section class="team">
+<section class="team" id="team">
     <div class="container">
         <div class="team__wrapper">
             <div class="team__item">
@@ -245,7 +247,7 @@
 </section>
 
     <!-- Reviews -->
-<section class="reviews">
+<section class="reviews" id="reviews">
     <div class="container">
         <div class="reviews__item">
             <div class="reviews__photo">
@@ -260,7 +262,7 @@
 </section>
 
     <!-- Download -->
-<section class="download">
+<section class="download" id="download">
     <div class="container">
         <h3 class="download__title">Are You Ready to Start? Download Now For Free!</h3>
         <div class="download__subtitle">
@@ -361,5 +363,6 @@
                 c0.111-0.182,0.266-0.401,0.42-0.614v0.614H230.883z"/>
             </g>
     </symbol>
+    
 </body>
 </html>
