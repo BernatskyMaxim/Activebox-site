@@ -27,9 +27,7 @@
             color: #ffffff;
             margin-right: 59px;
             text-decoration: none;
-            &:last-child {
-                margin-right: 0;
-            }
+            
             &:hover {
                 text-decoration: underline;
                 color: $second;
